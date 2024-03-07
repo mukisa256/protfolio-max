@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/4baa8d075d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                        viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="javascript:void(0)" onclick="scrollToSection('skills')">Skills</a></li>
+            <li><a href="javascript:void(0)" onclick="scrollToSection('Projects')">Projects</a></li>
+            <li class="hideOnMobile"><a href="javascript:void(0)"
+                    onclick="scrollToSection('Achievements')">Achievements</a></li>
+            <li><a href="javascript:void(0)" onclick="scrollToSection('services')">Services</a></li>
+            <li><a href="javascript:void(0)" onclick="scrollToSection('Contact Me')">Contact Me</a></li>
+
+
+        </ul>
+        <ul>
+            <li><a id="logo" href="">Emma Mukisa</a></li>
+            <li class="hideOnMobile"><a href="javascript:void(0)" onclick="scrollToSection('skills')">Skills</a></li>
+            <li class="hideOnMobile"><a href="javascript:void(0)" onclick="scrollToSection('Projects')">Projects</a>
+            </li>
+            <li class="hideOnMobile"><a href="javascript:void(0)"
+                    onclick="scrollToSection('Achievements')">Achievements</a></li>
+            <li class="hideOnMobile"><a href="javascript:void(0)" onclick="scrollToSection('services')">Services</a>
+            </li>
+            <li class="hideOnMobile"><a href="javascript:void(0)" onclick="scrollToSection('Contact Me')">Contact Me</a>
+            </li>
+            <li class="menu-icon" onclick=showSidebar()><a><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                        viewBox="0 -960 960 960" width="24">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+    <div class="intro">
+        <div class="intro-card1">
+            <h1>Hi all i'm Mukisa Emma</h1>
+            <P>
+                A passinate fontend Developer having an experience of building web designs<br>
+                with Html/css/Javascript/ React js and some other cool libraries and frameWorks </P>
+            <i class="fab fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i> <br>
+            <button>CONTACT</button>
+            <button id="seeResumeButton">SEE MY RESUME</button>
+            <div class="cv">
+                <p>
+                <h2> ndabiemmanuelmukisa@gmail.com
+                    0750739558 / 0785225963</h2>
+
+                <p>Dedicated Junior Software Engineer with a Bachelor's Degree in Computer Science from Gulu
+                    University. Proficient in diverse programming languages, front-end and back-end technologies, and
+                    mobile development. Excels in data structures and algorithms, contributing to efficient and
+                    optimized solutions. Skilled in remote collaboration, delivering high-quality frontend solutions
+                    using JavaScript, React, HTML, and CSS. Passionate about mentoring as a University Programming
+                    Trainer and Project Mentor. Actively pursuing Durack Certification for continuous technical
+                    enhancement. Demonstrated ability to contribute effectively to projects, coupled with a commitment
+                    to continuous learning and staying updated on industry advancements.</p>
+                <h3>Education Background</h3>
+                <p>Bachelor's Degree in Computer Science | Gulu University, 2020-2023
+                    Uganda Advanced Certificate of Education | Bishop’s Senior School, Mukono, 2018-2019
+                    Uganda Certificate of Education | Bukoyo Secondary School, Lganga, 2014-2017</p>
+                <h3>Technical Skills</h3>
+                <p>Programming Languages: JavaScript, PHP, Java
+                    Data Structures and Algorithms
+                    Front-end Technologies: HTML, CSS, JavaScript
+                    Back-end Technologies: PHP
+                    Mobile Development: Java (Android)
+                    Database: MySQL, Firebase, MariaDB, SQLite, PostgreSQL
+                    Version Control: Git, GitHub, Bitbucket
+                    Frameworks: .NET Framework
+                    Linux Scripting
+                    Tools: VS Code</p>
+                <h3>>Work Experience</h3 AT LLC |FRONTEND ENGINEER Leveraged JavaScript, React, HTML, and CSS for remote
+                    frontend development. Successfully collaborated with Fan Crane Limited, USA, contributing to
+                    projects over a 6-month period. UNIVERSITY PROGRAMMING TRAINER AND PROJECT MENTOR Conducted
+                    comprehensive programming training sessions for university students. Provided mentorship to guide
+                    students in successful completion of programming projects. <h3>Projects</h3>
+                <p>Emergency Application
+                    Developed an app addressing emergency situations, enabling users to alert loved ones through phone
+                    shaking. Technologies used: Java, Android Studio, SQLite
+                    Vote Management System
+                    Contributed to the development of Gulu University Voting Management System. Technologies used:
+                    JavaScript, HTML, CSS, MySQL</p>
+                <h3>Certifications</h3>
+                <p>Durack Certification
+                    In progress.</p>
+                <h3>Additional Information</h3>
+                <p>Actively pursuing continuous professional development. Keen interest in emerging technologies and
+                    industry trends.
+                    Proven ability to collaborate within cross-functional teams and adapt quickly to new technologies.
+                </p>
+
+                </p>
+            </div>
+        </div>
+        <!-- <div class="intro-card2">
+            <img src="images/Screenshot_20231225-044453.png">
+        </div> -->
+    </div>
+    <!--skills sections-->
+    <div class="skills" id="skills">
+        <h2>My Skills</h2>
+        <p>HTML</p>
+        <span class="bar"><span class="html">90%</span></span>
+        <p>CSS</p>
+        <span class="bar"><span class="css">70%</span></span>
+        <p>JAVASCRIPT</p>
+        <span class="bar"><span class="javaScript">50%</span></span>
+        <p>React</p>
+        <span class="bar"><span class="React">45%</span></span>
+    </div>
+    <!--Service section-->
+    <div class="services" id="services">
+        <h2>Services</h2>
+
+        <div class="service-card">
+            <h3>WEB DESIGN</h3>
+            <P> I offer a range of web design Services to all Business and
+                entrepreneur who seek strong Online presence. These include </P>
+            <li>Custom website design and development</li>
+            <li>Website redesign and updates</li>
+            <li>Landing page creation</li>
+            <li>E-commerce website design</li>
+        </div>
+        <div class="service-card">
+            <h3>WEB DEVELOPMENT</h3>
+            <P>I also offer web development that elevate your Online Presence
+                 with stunning and user-friendly websites.</P>
+                 <p>My expertise includes</p>
+                 <li>Custom website design and development</li>
+                 <li>web Application development</li>
+                 <li>Responsive design</li>
+        </div>
+        <div class="service-card">
+            <H3>MAPPING </h3>
+            <P>I do Mapping Services to Empower Your Needs.Whether you're a business owner,researcher or individual seeking Spatial insights i get youe covered</P>
+            <li>Data collection and integration</li>
+            <li>interative map creation</li>
+            <li>location analysis</li>
+        </div>
+    </div>
+    <!--Contact section-->
+    <div class="contact-section" id="Contact Me">
+        <h3>Contact Me </h3>
+        <div class="contact">
+            <img src="images/Screenshot_20231225-044453.png" alt="">
+            <p>Emma Mukisa</p>
+            <P><i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                ndabiemmanuelmukisa@gmail.com</P>
+            <p><i class="fa fa-phone" aria-hidden="true"></i>
+                0750739558/0785225963</p>
+        </div>
+    </div>
+    <!--Projects section-->
+    <div class="project-section" id="Projects">
+        <h2>Projects</h3>
+            <div class="project-card">
+                <img src="images/Capture.PNGu.PNG">
+                <h3>ToDo-List</h3>
+                <p>This web application helps one to list down his or her tasks/goals
+                    that he want to work on at given periods of time. The user is able
+                    to add, edit and delete a task that he is done with or the he wants to remove from the list</p>
+                <h6>Technologies used</h6>
+                <p>Html,Css and Javascript</p>
+            </div>
+            <div class="project-card">
+                <img src="images/Capture.PNG5.PNGy.PNG" alt="">
+                <h3>Calculator
+        </h2>
+        <p>This is web Calculator that enables one to carry out mathmathical
+            operations like addiation/Multiplcation/Subtraction/division </p>
+        <h6>Technologies used</h6>
+        <p>Html,Css and React </p>
+    </div>
+    <div class="project-card">
+        <img src="images/Capture.PNG4.PNGx.PNG" alt="">
+        <h3>Weather-App</h2>
+            <p>This help someone to delect the weather state of a given place.The user only needs to
+                enter the name of a given place that he/she wants and then clicks on the search icon </p>
+            <h6>Technologies used</h6>
+            <p>Html,Css and Javascript plus google weather-api</p>
+    </div>
+    </div>
+    <!--footer section-->
+    <div class="footer">
+        <p>Author: Emma Mukisa</p>
+        <p><a href="ndabiemmanuelmukisa@gmail.com">ndabiemmanuelmukisa@gmail.com</a></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
